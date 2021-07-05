@@ -6,4 +6,7 @@
 * Working 
 > ![screenshot](img/working.png)
 
+* Error page of webapp
+> ![screenshot](img/error_page.png)
+
 Hope you like this :thumbsup: and if you like it make sure to star this repository :star2:.
