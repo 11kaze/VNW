@@ -1,0 +1,5 @@
+# VNW ( Voice note writer )
+
+#### VNW is a simple javascript based web app that converts your voice/audio to typed notes.
+
+Hope you like this :thumbsup: and if you like it make sure to star this repository :star2:.
