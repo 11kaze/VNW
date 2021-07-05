@@ -1,0 +1,144 @@
+.topnav {
+    background-color: rgb(56, 56, 56);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: middle;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(247, 247, 247);
+    border-radius: 0% 0% 12% 12%;
+    color: rgb(0, 0, 0);
+    
+  }
+
+body{
+    background-color: rgb(15, 13, 13);
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: rgb(247, 247, 247);
+    margin: -10px;
+}
+button:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+.container h1 {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: cornsilk;
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    color: cornsilk;
+}
+
+
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 85px;
+}
+.grid-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.app {
+    padding: 20px;
+    background-color: rgba(22, 18, 18,0.8);
+         
+}
+
+
+#note-textarea {
+    margin: 10px 0;
+    resize: none;
+}
+
+#recording-instructions {
+    margin: 15px auto 10px;
+}
+
+#notes {
+    padding-top: 20px;
+
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+.notes-area {
+    padding: 20px;
+    background-color:rgba(22, 18, 18,0.8);
+}
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+    color: cornsilk;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+    #bsaHolder{ display:none;}
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Voice Notes writer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-light bg-light">
+            <div class="topnav">
+                <div style="float:left;" class="container-fluid">
+                    <a class="navbar-brand" href="#">Voice Notes Writer <img style="height: 25px; width: 30px; float: left; margin-right: 10px;" src="https://i.pinimg.com/originals/52/8e/29/528e2946f76a74030660b231c7ff1dc1.png"/></a>
+                </div>
+                <a href="https://github.com/11kaze" class="fa fa-github" style="font-size:18px" aria-hidden="true"></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pawan88821z@gmail.com" target="_blank"" class="fa fa-google"></a>
+                <a href="https://www.linkedin.com/in/pawan-singh-764a311bb" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/11_kaze/" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100007659785268" class="fa fa-facebook"></a>
+              </div>
+        </nav>
+        <div class="container">
+            
+            <h1><em style="color: rgb(216, 56, 56); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">V</em>oice Notes writer</h1>
+            <p class="page-description">This Web app converts your voice/audio into digital notes</p>
+
+            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. <br> Try Opening this same page in Google Chrome.</br></h3>
+            <div class='error_img' style="display: none;">
+                <img src="https://c.tenor.com/eDchk3srtycAAAAj/piffle-error.gif"/>
+            </div>
+
+            <div class="grid-container">
+                <div class="app"> 
+                    <h3 style="margin-bottom: 30px; color: rgb(233, 109, 109); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Add New Note</h3>
+                    <div class="input-single">
+                        <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+                    </div>         
+                    <button id="start-record-btn" title="Start Recording">Start <img style="float: left; height: 21px; width: 20px;margin-top: 6px;margin-right: 3px;" src='https://cdn.icon-icons.com/icons2/2066/PNG/512/mic_icon_125214.png'/></button>
+                    <button id="pause-record-btn" title="Pause Recording">Pause<img style="float: left; height: 24px; width: 20px;margin-top: 6px;margin-right: 3px;" src="https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-mute-mic-microphone-audio-sound-4593173_122241.png"/></button>
+                    <button id="save-note-btn" title="Save Note">Save Note <img style="float: left; height: 24px; width: 20px;margin-top: 6px; margin-right: 3px;" src="https://cdn.iconscout.com/icon/free/png-256/save-1779882-1518534.png"/></button>
+                    <div class='note-down-img' style="display: none; float: right;">
+                        <img style="height: 53px; width: 53px;" src="https://media.tenor.com/images/362eada45de8a6ed14c4253757c36e7a/tenor.gif"/>   
+                    </div>
+                    <p style="margin-top: 30px;" id="recording-instructions">Press the <strong>Start </strong> button and allow access.</p>
+                    <p id="recording-instructions">Press the <strong>Pause </strong> button to stop recognition</p>
+                </div>
+                <div class="notes-area">    
+                    <h3 style="color: rgb(233, 109, 109); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">My Notes</h3>
+                    <ul id="notes">
+                        <li>
+                            <p class="no-notes">you currently don't have any notes.</p>
+                        </li>
+                    </ul>
+    
+                </div>
+
+                
+            </div>
+            
+
+        </div>
+        
+            
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="VNW_script.js"></script>
+
+    </body>
+</html>
+
+
